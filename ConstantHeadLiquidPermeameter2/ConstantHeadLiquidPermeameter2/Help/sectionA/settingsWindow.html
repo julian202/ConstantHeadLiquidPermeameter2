@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>Settings Window</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+	<meta name="generator" content="CSE HTML Validator Professional (http://www.htmlvalidator.com/)">
+</head>
+
+<body>
+<h3><font color="#FF0000">Settings Window</font></h3>
+<hr>
+
+<p>
+The settings window contains important settings for the program.
+</p>
+<img src="../images/settingsWindow.png" alt="main screen">
+<br >
+<p>
+<font color="#FF0000">COM Port</font><br>
+The first setting is the COM port. It is crucial that we have the right COM port selected or else the machine will not work. Our COM port will only be displayed when we connect the machine to the computer via USB.  Also the machine has to be turned on (with the switch at the back of the machine) for the COM port to be displayed. You might see other COM ports of other devices that are connected to the computer which you must not select. You can figure out which COM port to choose by plugging and unplugging the USB from the computer and refreshing the list, the new COM port that appears when you plug in the USB corresponds to your machine.
+</p>
+<p>
+<font color="#FF0000">Data acquisition interval</font><br>
+This is the interval in seconds between each data point that will be recorded and displayed. We recommend an interval of 30 seconds to smooth out irregularities.
+</p>
+<p>
+<font color="#FF0000">Pressure Tolerance</font><br>
+A pressure tolerance of 0.1 PSI means that the pump will start to adjust the pressure when it is 0.1 PSI or more below the target pressure. A lower tolerance could lead to overshooting of the target pressure so a value of 0.1 is recommended.
+</p>
+<p>
+<font color="#FF0000">Temperature Tolerance</font><br>
+Same as the pressure tolerance but for temperature. Temperature varies more slowly than pressure so a value of 3 is recommended. The test will not start until the temperature is within the tolerance value.
+</p>
+<p>
+<br >
+<font color="#FF0000">Machine Settings</font><br>
+<br >
+<img src="../images/settingsWindow2.png" alt="main screen">
+<br >
+<br >
+In the machine settings we find the Max Gauge Pressure which is the maximum pressure that the pressure gauge allows. This should never be changed unless the Pressure Gauge is replaced. The other setting is "Close flushing valve at collected volume of:". This is used by the machine when the collected volume tank is full and is flushed automatically. If this value is 13, the valve that drains the collected volume tank will close when the volume drops to 13% of the tank volume. This value can be changed if we want more or less volume to be left in the collected volume tank after the draining procedure. Note that there is a delay between this value being reached and the valve closing completely which means that the volume will end up being lower than that.
+</p>
+
+<br >
+
+
+
+<table>
+	<tr>
+	<td height="30" width="50"></td>
+	<td height="30" width="50"><a href="../sectionA/manualControl.html">Back</a></td>
+	<td height="30" width="50"></td>
+	</tr>
+</table>
+</body>
+</html>

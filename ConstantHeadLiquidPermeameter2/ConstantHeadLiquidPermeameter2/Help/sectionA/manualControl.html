@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>Manual Control</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+	<meta name="generator" content="CSE HTML Validator Professional (http://www.htmlvalidator.com/)">
+</head>
+
+<body>
+<h3><font color="#FF0000">Manual Control</font></h3>
+<hr>
+
+<p>
+The manual control window allows you to control all the functions of the machine manually. It shows the collected volume tank and the reservoir tank, the two chambers, all the valves and pipes and the pressure gauge. Please note that there are vents at the top of both tanks which go to the back of the machine, which are not depicted in the diagram.
+</p>
+<img src="../images/manualControl.png" alt="main screen">
+<br >
+<p>
+Only one sample chamber can be selected at a time. To switch chambers click on the checkbox found inside the box that represents the chamber. The current volume inside the tanks is displayed to the left of each tank. The collect volume tank also displays the current flow as measured over the last 10 seconds and normalized to milliliters per minute. On the bottom right of the screen are buttons to start and stop the fans that cool down the chambers. On the top right of the screen are control for reading and setting temperatures. The temperatures of chamber 1 (disk) and chamber 2 (ring) as well as of the reservoir can be set independently.
+</p>
+<p>
+<font color="#FF0000">Pressure and Pump</font><br>
+The yellow circle represents the pressure gauge and its reading is displayed both inside of the circle and on the big dial to the right of the screen. The checkbox "Go to Pressure" can be used to make the pump pump until the desired pressure is reached. The pump will try to maintain the desired pressure over time. The top right of the screen indicates whether the pressure has been stable or not during the last 5 seconds with a threshold of 0.1 PSI. These values can be modified just by clicking on them. The pump can also be controlled manually where it says "Set Free Flow Rate" and clicking the "Go" button. To stop it click on the "Stop" button. Note that the pump will not run if the reservoir is empty (although this function can be disabled by clicking the checkbox found under the "Manual Control of Pump"). 
+</p>
+<p>
+<font color="#FF0000">Valves</font><br>
+The green boxes are open valves and the red boxes are closed valves. The valves are clickable so clicking on an open valve will close it and clicking on a closed valve will open it. Opening V1 will drain the collected volume tank and it drains to the left side of the machine. Opening V3 will do the same for the reservoir tank. V4, V5, and V6 were designed to adjust flow rates becaues their pipes have different diameter. However we can run all the tests with only one valve open (V4 by default). Make sure that there is always at least one of these valves that is open. Finally V2 should be closed when running a test and we should open it to release pressure at the end of the test. ALWAYS MAKE SURE THAT THE PRESSURE IS LOW BEFORE YOU OPEN A CHAMBER TO CHANGE A SAMPLE! If the pressure is high open valve V2 to release the pressure.
+</p>
+<br >
+
+
+
+<table>
+	<tr>
+	<td height="30" width="50"></td>
+	<td height="30" width="50"><a href="../sectionA/reportWindow.html">Back</a></td>
+	<td height="30" width="50"></td>
+	<td height="30" width="50"><a href="../sectionA/settingsWindow.html">Next</a></td>
+	<td height="30" width="50"></td>
+	</tr>
+</table>
+</body>
+</html>

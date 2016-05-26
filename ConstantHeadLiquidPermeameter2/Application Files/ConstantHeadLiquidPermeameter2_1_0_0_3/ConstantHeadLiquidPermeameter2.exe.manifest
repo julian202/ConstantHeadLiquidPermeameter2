@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ConstantHeadLiquidPermeameter2.exe" version="1.0.0.3" publicKeyToken="4ec8c5d155462d06" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="PMI.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ConstantHeadLiquidPermeameter2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ConstantHeadLiquidPermeameter2.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ConstantHeadLiquidPermeameter2.exe" size="486296">
+      <assemblyIdentity name="ConstantHeadLiquidPermeameter2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>UuCZuN0ujdVvnGVdzJK6PWRBkDtBiURxwXXeR0DMsjw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EPPlus.dll" size="1119744">
+      <assemblyIdentity name="EPPlus" version="4.0.4.0" publicKeyToken="EA159FDAA78159A1" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>995tu+TlCQ+VQC4xH++BcC8xBxOBza7DEf2zWyNRxik=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MathNet.Numerics.dll" size="1280512">
+      <assemblyIdentity name="MathNet.Numerics" version="3.11.1.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>LN3SmndIBUIP77HWOBnEgex+o5DF1ZDtoWUXBC1QWBs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.VisualBasic.PowerPacks.dll" size="269568">
+      <assemblyIdentity name="Microsoft.VisualBasic.PowerPacks" version="12.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>9SpbDh0TsZfUzAYy9xwqO8RKYqWm3x7iEW1lR4k90vY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ConstantHeadLiquidPermeameter2.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Diagram.PNG" size="227965">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mQ2cCaUwMYqk0rYDvhhJnaiPlyU+GkFx9IOry2nK4/c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="PMI.ico" size="14942">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>j8TawvZ751QYE01RY2PlO5iAGs7v6/dWIRRn3AMJ8DQ=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=MSI\MSI-1" issuerKeyHash="d82c75336fb3ee09b3bef938f5784e07bfe0f669" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>J5I+JGPpLVL2b0XJwY0BR9vLIFYPKZ2rQ1IAus2uTtQ=</DigestValue></Reference></SignedInfo><SignatureValue>S7/52zFUz3ZoM/+k+hFsWoPjdizM5F8t3vY94cg1dWALnpTP6dGF2DufXv30cZxfH6zd8mOSDQhxnrln90vXk3e6ppGRYKTmX0dxGvJXkR8UGTqw/Y6+6rUmQuwgh2usRvmKnuav6xHLpPO8ihYT/DO9OW6P1z/jr+p3nbHjPrg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>oc/kj2s0FNRXtn3iw8J7/Wa9f74u1Wp5U1apKHAtSjRcmQFxL+Y0o8AI1dGdkbLPcn0GuCPOKHDfI9TyuucXWvqE0DsjYuwDQcZJrzg17r2quswhIS6DOwKnNrDoCHvkOLP3KqJXoHW2Nlyt2CF7cmOMH3lhI/BS0XeRqGdIfIM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d44eaecdba005243ab9d290f5620cbdb47018dc1c9456ff6522de963243e9227" Description="" Url=""><as:assemblyIdentity name="ConstantHeadLiquidPermeameter2.exe" version="1.0.0.3" publicKeyToken="4ec8c5d155462d06" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MSI\MSI-1</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>/lhAq/k1DmMx/ix11rEPR5sQX3VLsVD13RZ9SrWkrkE=</DigestValue></Reference></SignedInfo><SignatureValue>d9LbVGk/F0wItrSv1LJcbCngSThQq+aptBNQi5xXOEHcciSbFMBNZZspUZIoLHn7zQ2E+7d0bfL6+sNayq1FV1VE9g2zDqFInWMfG6Qt912bcsh8uvdn6y/x0sgk9BO21N84SmgX52bDNlonveLTdoB2rr3/bH0Xy+ynhb2JGak=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>oc/kj2s0FNRXtn3iw8J7/Wa9f74u1Wp5U1apKHAtSjRcmQFxL+Y0o8AI1dGdkbLPcn0GuCPOKHDfI9TyuucXWvqE0DsjYuwDQcZJrzg17r2quswhIS6DOwKnNrDoCHvkOLP3KqJXoHW2Nlyt2CF7cmOMH3lhI/BS0XeRqGdIfIM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBvTCCASagAwIBAgIQV/w6yqMEELNCcr2BrqMerTANBgkqhkiG9w0BAQsFADAdMRswGQYDVQQDHhIATQBTAEkAXABNAFMASQAtADEwHhcNMTYwNTE5MjA0MTA5WhcNMTcwNTIwMDI0MTA5WjAdMRswGQYDVQQDHhIATQBTAEkAXABNAFMASQAtADEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKHP5I9rNBTUV7Z94sPCe/1mvX++LtVqeVNWqShwLUo0XJkBcS/mNKPACNXRnZGyz3J9Brgjzihw3yPU8rrnF1r6hNA7I2LsA0HGSa84Ne69qrrMISEugzsCpzaw6Ah75Diz9yqiV6B1tjZcrdghe3JjjB95YSPwUtF3kahnSHyDAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAlGHczwt70E9DNcEeq7hqm9MtypHi57zpPX7AeXxptWNz35sTD9pBibhVziEGcHq4fI8oG/TaVNzJJovHrUHCk3enaypIl35QtDEWV84nJ1pVlrPhLRlK/xVHBREGxSnN+55jY82Cn9FZQuwoj1jX4nBOMisGoHvWXmJcOGjjDJA=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

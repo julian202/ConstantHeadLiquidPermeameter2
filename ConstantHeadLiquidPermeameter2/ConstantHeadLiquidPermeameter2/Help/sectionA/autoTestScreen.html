@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>AutoTest Screen</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+	<meta name="generator" content="CSE HTML Validator Professional (http://www.htmlvalidator.com/)">
+</head>
+
+<body>
+<h3><font color="#FF0000">Auto Test Screen</font></h3>
+<hr>
+<!-- Below is a link to a page that still has to be created -->
+
+<p>
+The Auto Test Screen displays the data acquisition in real time in a graph and also displays the current state of the machine.
+</p>
+<img src="../images/autoTest-Screen.jpg" alt="main screen">
+<br >
+<br >
+
+<p>
+
+<br >
+
+<p>
+<font color="#FF0000">Tank Levels</font><br>
+When first run, the program will first check the level of liquid in the tanks. There are two tanks: the collected volume tank and the reservoir tank. The liquid comes from the reservoir and is pumped through the sample and ends up in the collected volume tank. If the volume in the collected volume tank is above a certain level the program will flush the tank. This may take a while. The level at which this flushing is triggered can be set in Settings>Machine Settings>"Close flushing valve at collected volume of:" as a percentage of the total volume of the tank. Make sure that the reservoir tank is full before and during the test. You can add more liquid to the reservoir tank during the test.  Be aware that the program will keep on checking the tank levels during the test and will stop the test if the tank level is full and flush it automatically, at which point you should add more liquid to the reservoir tank.
+</p>
+<img src="../images/checkingTanks.png" alt="main screen">
+<br >
+<br >
+<img src="../images/flushingScreen.png" alt="main screen">
+<br >
+<br >
+<p>
+<font color="#FF0000">Target Temperature and Target Pressure</font><br>
+The program first attempts to reach the target temperature of the first step in the program. Only the currently selected chamber will be heated, as well as the reservoir tank. Note that it might take a long time to reach the target temperature. As soon as the target temperature is reached the program will start the main pump to build up pressure until it reaches the target pressure of the current step. The program will attempt to maintain a constant pressure during the course of the step in the test by automatically adjusting the speed of the pump. Note that the program is better at maintaining constant pressure at lower pressures than at high pressures. Also note that the program is designed to work best with steps of increasing temperature and increasing pressure (rather than decreasing values in each step).
+</p>
+<img src="../images/settingTemperature.png" alt="main screen">
+<br >
+<br >
+<img src="../images/settingPressure.png" alt="main screen">
+<br >
+<br >
+<p>
+<font color="#FF0000">Overlay graphs</font><br>
+Below the graph are 3 checkboxes that allow you to display overlaying graphs of the pressure, temperature and permeability of the current test.
+</p>
+<img src="../images/overlayGraphs.png" alt="main screen">
+<br >
+<br >
+<font color="#FF0000">Stop Test Button</font><br>
+When clicking the stop test button the test will finish and a new report window will be displayed. Please note that it might take a while until the test stops (usually until the next data point is acquired). When the test is finished the fans will turn on to cool down the chambers. These fans will turn off automatically when a new test is started. They can also be turned off from the Manual Control window.
+</p>
+
+
+<table>
+	<tr>
+	<td height="30" width="50"></td>
+	<td height="30" width="50"><a href="../sectionA/autoTestSetup.html">Back</a></td>
+	<td height="30" width="50"></td>
+	<td height="30" width="50"><a href="../sectionA/reportWindow.html">Next</a></td>
+	<td height="30" width="50"></td>
+	</tr>
+</table>
+</body>
+</html>
